@@ -14,9 +14,10 @@
     devShells.${system}.default = pkgs.mkShell {
       packages = [(pkgs.ruby.withPackages (ps: with ps; [jekyll webrick]) )];
         
-      shellHook = ''
+      shellHook = ''  # `nix develop` and <C-c> is all you need to start and stop
         bundle install
         bundle exec jekyll serve
+        exit
       '';
     };
   };
