@@ -9,8 +9,13 @@ labels:
   - Learning
 ---
 
+Sometimes I wish Typescript was completely different from C and Python.
+
 I thought that my previous C and Python experience would give me an edge in this
-class.
+class, since the Typescript that the class uses shares C-like syntax and
+Python-like high-level abstraction, at least to my eyes. And yet, to my great
+shame, I had to rely on my partner to play the role of the Typescript Language
+Server by fixing some less-than-ideal parts of my code.
 
 ```
 ```
