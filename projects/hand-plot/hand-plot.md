@@ -7,7 +7,7 @@ date: 2024-08-05
 published: true
 labels:
   - Python
-summary: "A plot made to better assess the risk of hand injury from a keyboard"
+summary: "A plot made to better assess the risk of hand injury from a fairly fancy keyboard"
 ---
 
 <figure>
