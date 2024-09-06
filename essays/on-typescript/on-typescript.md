@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "An Uncanny Blend of C and Python"
+title: "Typescript: So Close and Yet So Far from My C and Python Parents"
 date: 2024-09-05
 published: true
 labels:
@@ -9,15 +9,22 @@ labels:
   - Learning
 ---
 
-Sometimes I wish Typescript was completely different from C and Python.
+Consider the following bit of code I wrote this week in a timed programming
+assignment:
 
-I thought that my previous C and Python experience would give me an edge in this
-class, since the Typescript that the class uses shares C-like syntax and
-Python-like high-level abstraction, at least to my eyes. And yet, to my great
-shame, I had to rely on my partner to play the role of the Typescript Language
-Server by fixing some less-than-ideal parts of my code.
-
-```
+```typescript
+function temperatureConverter(int temperature, str temperatureType) {
+    if (temperatureType == "F") {
+        return (temperature - 32) * 5/9;
+    } else if (temperatureType == "C") {
+        return (temperature * 9/5) + 32;
+    }
+    else {return "Illegal temperature type"}
+};
+console.log(temperatureConverter(212, "F"))
+console.log(temperatureConverter(0, "C"))
+console.log(temperatureConverter(-40, "F"))
+console.log(temperatureConverter(-40, "X")
 ```
 
 <!-- Ever since I first grasped a paintbrush, I’ve always been eager to learn about -->
