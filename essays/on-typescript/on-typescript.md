@@ -9,10 +9,20 @@ labels:
   - Learning
 ---
 
-## An Example
+<figure>
+  <center>
+    <img width="256px" src="./logo.png">
+    <!-- <figcaption> -->
+    <!--    A quick demo of <tt>calnext</tt> and <tt>calmod</tt> which compose -->
+    <!--   <tt>cal-suite</tt>. -->
+    <!-- </figcaption> -->
+    </center>
+</figure>
 
-Consider the following bit of Typescript code I wrote this week in a timed programming
-assignment.
+
+Who knew that a language that felt a lot like my 2 favorite ones would end up
+being harder than the both of them? Consider the following bit of Typescript
+code I wrote this week in a timed programming assignment.
 
 ```typescript
 function temperatureConverter(int temperature, str temperatureType) {
@@ -32,7 +42,7 @@ console.log(temperatureConverter(-40, "X")
 See the problems and non-idealities? Let me comment them in for clarity.
 ```typescript
 function temperatureConverter(int temperature, str temperatureType) {
-    // Bad type declarations   ^                ^
+    // Bad type declarations   ^ here           ^ and here
     if (temperatureType == "F") {
         return (temperature - 32) * 5/9;
     } else if (temperatureType == "C") {
@@ -52,4 +62,17 @@ instead of `val: type`) and neglected semicolons for lines that resemble
 semicolon insertion, but that inconsistency leads to marginally confusing code
 and a potential for bugs. My partner during the assignment --- thank goodness I
 had his help --- ended up acting as my Typescript Language Server with all these
-syntax slip-ups I had been making.
+syntax slip-ups I had been making. This was due to the fact that most of the
+code I have written has been in C and Python, and my pattern-identifying
+behavior wound up making logical leaps and jumps that weren't all that accurate
+and valid.
+
+---
+
+That being said, I don't think that the language is terrible, as my own problems
+were a product of my own experience with other languages. (It certainly looks
+easier than the [parentheses-happy Common
+Lisp](https://en.wikipedia.org/wiki/Common_Lisp#Syntax) in my eyes.) For now, if
+I'm just mindful of the fact that I shouldn't treat Typescript as C or Python,
+I'm certain that I will learn a lot from the language that's used to add types
+to the language that powers the web.
