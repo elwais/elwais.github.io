@@ -9,8 +9,10 @@ labels:
   - Learning
 ---
 
-Consider the following bit of code I wrote this week in a timed programming
-assignment:
+## An Example
+
+Consider the following bit of Typescript code I wrote this week in a timed programming
+assignment.
 
 ```typescript
 function temperatureConverter(int temperature, str temperatureType) {
@@ -27,21 +29,27 @@ console.log(temperatureConverter(-40, "F"))
 console.log(temperatureConverter(-40, "X")
 ```
 
-<!-- Ever since I first grasped a paintbrush, I’ve always been eager to learn about -->
-<!-- design. Design is such a complex concept. For example, when looking at abstract -->
-<!-- art, its meaning can be completely different for different people. It motivates -->
-<!-- a person to think thoughtfully and has the potential to submerge them in a sea -->
-<!-- of imagination. It’s that special relationship between the viewer and the art -->
-<!-- that makes something as technical as software engineering interesting to me. -->
+See the problems and non-idealities? Let me comment them in for clarity.
+```typescript
+function temperatureConverter(int temperature, str temperatureType) {
+    // Bad type declarations   ^                ^
+    if (temperatureType == "F") {
+        return (temperature - 32) * 5/9;
+    } else if (temperatureType == "C") {
+        return (temperature * 9/5) + 32;
+    }
+    else {return "Illegal temperature type"}  // No semicolon
+};
+console.log(temperatureConverter(212, "F"))  // No semicolon
+console.log(temperatureConverter(0, "C"))  // No semicolon
+console.log(temperatureConverter(-40, "F"))  // No semicolon
+console.log(temperatureConverter(-40, "X")  // No semicolon
+```
 
-<!-- I never used to think that design and technology went hand in hand.  Thus, -->
-<!-- learning about software engineering and the role of design has been incredibly -->
-<!-- interesting to me. Design, implementation, and management are just some of the -->
-<!-- many things I wish to learn more about. Good art, in a way, makes a person -->
-<!-- question it. They become joined in the idea of visualization – where captivation -->
-<!-- meets inspiration. -->
-
-<!-- I am now starting to take a Software Engineering class. I hope to learn a lot -->
-<!-- through the course, but I know it will be just the beginning of my journey. By -->
-<!-- the time I’m done with it, I hope I’ve learned enough to take the next step in -->
-<!-- my life as a developer. But until then, my fire will keep on burning. -->
+In **Typescript**, I incorrectly pulled in **C**-style typing (`type val`
+instead of `val: type`) and neglected semicolons for lines that resemble
+**Python**. The semicolons weren't an issue thanks to Typescript's automatic
+semicolon insertion, but that inconsistency leads to marginally confusing code
+and a potential for bugs. My partner during the assignment --- thank goodness I
+had his help --- ended up acting as my Typescript Language Server with all these
+syntax slip-ups I had been making.
