@@ -74,5 +74,5 @@ were a product of my own experience with other languages. (It certainly looks
 easier than the [parentheses-happy Common
 Lisp](https://en.wikipedia.org/wiki/Common_Lisp#Syntax) in my eyes.) For now, if
 I'm just mindful of the fact that I shouldn't treat Typescript as C or Python,
-I'm certain that I will learn a lot from the language that's used to add types
-to the language that powers the web.
+I'm certain that I will learn a lot from the language that helps power much of
+the web.
