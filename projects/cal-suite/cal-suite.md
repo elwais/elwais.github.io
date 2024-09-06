@@ -57,7 +57,7 @@ me whenever I'm on my computer, which has helped me stay accountable.
 
 Though the code was written by me, this project would have not been possible
 without `gcalcli` and inspiration from its example integration with
-[tmux](https://github.com/tmux/tmux), from which I began to write the scripts.
+[tmux](https://github.com/tmux/tmux), from which I began to write `cal-suite`.
 
 This project was one of the reasons why I grew to love coding (to the point that
 I'd select both of my interdisciplinary electives to be classes that teach about
