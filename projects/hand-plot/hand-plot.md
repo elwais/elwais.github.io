@@ -44,4 +44,4 @@ that I may have regretted in the future.
 
 ---
 
-You may find the source code of the project [here](./src).
+You can find the source code of the project [here](./src).
