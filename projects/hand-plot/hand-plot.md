@@ -12,10 +12,7 @@ summary: "A plot made to better assess the risk of hand injury from a fairly fan
 
 <figure>
   <center>
-  <object data="./hand_plot.pdf" height="500px" width="700px" type='application/pdf'></object>
-    <figcaption>
-      PDF rendering of <tt>hand_plot.py</tt>.
-    </figcaption>
+    <img width="50%" src="./hand_plot.png">
     </center>
 </figure>
 
@@ -42,7 +39,8 @@ very specific, detailed graphic which would not at the very least be
 inconvenient to do with a high-level interface. That very important
 balance/compromise between ease and control is something that I've heard often,
 but this little endeavor of mine allowed me to experience that difference for
-the first time.
+the first time. And of course, it may have saved me from making a hasty purchase
+that I may have regretted in the future.
 
 ---
 
