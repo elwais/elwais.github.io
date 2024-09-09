@@ -3,7 +3,7 @@ layout: project
 type: project
 image: projects/hand-plot/thumb.png
 title: Hand Plot
-date: 2024-08-05
+date: 2024-09-05
 published: true
 labels:
   - Python
@@ -36,4 +36,14 @@ This project served as a "sequel" to the [`cal-suite`](../cal-suite/cal-suite)
 project I've been working on earlier, as I wound up using most of what I had
 used then, plus the [seaborn](https://seaborn.pydata.org/) library for plots and
 [pandas](https://pandas.pydata.org/) for data. Those packages introduced me to a
-much more high-level approach to plotting data
+much more high-level approach to plotting data, which allowed me to work much
+faster when my intent was to get *something* up on the screen, as opposed to a
+very specific, detailed graphic which would not at the very least be
+inconvenient to do with a high-level interface. That very important
+balance/compromise between ease and control is something that I've heard often,
+but this little endeavor of mine allowed me to experience that difference for
+the first time.
+
+---
+
+You may find the source code of the project [here](./src).

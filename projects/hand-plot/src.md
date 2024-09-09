@@ -1,5 +1,5 @@
 ---
-title: hand-plot.py
+title: "hand-plot.py"
 ---
 ```python
 from numpy.random import choice
