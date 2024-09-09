@@ -8,7 +8,9 @@ labels:
   - Mindset
 ---
 
-"Stay hungry, stay foolish." That was the message one of my best instructors
+"Stay hungry, stay foolish."
+
+That was the message one of my best instructors
 left me with at the end of the Spring 2024 semester from [Steve
 Jobs](https://www.youtube.com/watch?v=UF8uR6Z6KLc). That advice has done so much
 for me in everything that involves my computer, and I'd like to spend a bit of
