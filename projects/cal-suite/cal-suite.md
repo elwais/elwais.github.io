@@ -3,7 +3,7 @@ layout: project
 type: project
 image: projects/cal-suite/cal-suite.png
 title: cal-suite
-date: 2024-08-05
+date: 2024-09-05
 published: true
 labels:
   - Python
