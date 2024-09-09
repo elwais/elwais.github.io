@@ -10,11 +10,11 @@ labels:
 
 "Stay hungry, stay foolish."
 
-That was the message one of my best instructors
-left me with at the end of the Spring 2024 semester from [Steve
-Jobs](https://www.youtube.com/watch?v=UF8uR6Z6KLc). That advice has done so much
-for me in everything that involves my computer, and I'd like to spend a bit of
-time talking about how.
+That was the message one of my best instructors left me with at the end of the
+Spring 2024 semester from [Steve Jobs' 2005 Stanford Commencement
+Address](https://www.youtube.com/watch?v=UF8uR6Z6KLc). That advice has done so
+much for me in everything that involves my computer, and I'd like to spend a bit
+of time talking about how.
 
 There may be many subtly different interpretations of this advice. My
 interpretation mapped well to my life however, and is simply the following:
