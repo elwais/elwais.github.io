@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Programming Questions are Nontrivial Favors"
+title: "There is Such a Thing as a Stupid Question"
 date: 2024-09-12
 published: true
 labels:
@@ -10,7 +10,8 @@ labels:
 
 "You've tried everything you could, you've asked everyone you could, and you
 acknowledge that an answer is a gesture of kindness, not an obligation. Only
-then, you may ask your question."
+then, you may ask your question. After all, there is such a thing as a stupid
+question."
 
 ---
 
@@ -103,4 +104,22 @@ Thanks.
 Now, this question isn't one that's terrible. The author states that they've
 looked around, which is a good start. However, it looks like the author was
 asking for a specific way (open source packages) to do a specific thing
-(`asp.net` website for URL monitoring).
+(`asp.net` website for URL monitoring). One of the responses roughly states that
+it's not possible due to the fact that packages are local ("you want to do Y
+with X, but that's not possible, and you need to use a Z instead of an X"). The
+sole other response simply provides a link to other forum posts, implying that
+the question author didn't do enough research into the question before asking.
+
+What I find most interesting is that Case 2 had a much more lackluster response
+than Case 1 despite having double the views. This implies that many people read
+the question and simply decided that it wasn't worth their time.
+
+## Moving Forward with the Idea that Stupid Questions Exist
+
+I guess this little adventure didn't teach much that's new, but did solidify
+that feeling of approaching others and asking questions with effort and
+sincerity. I personally will continue to do my thing of bashing my head against
+the board before asking for help, and I'd like to continue that in the future
+with my other endeavors as well --- especially for software. (I don't think it's
+a good idea to be dogmatic about this since there can be nontrivial drawbacks to
+this kind of approach, but that discussion may be best saved for another time.)
