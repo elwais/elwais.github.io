@@ -83,7 +83,7 @@ for some direction to continue putting in the work. This has garnered 5
 responses, two of which have upvotes around 8 times that of the others (implying
 relatively high-quality answers).
 
-### Case 2: "How do you monitor the availability of multiple websites"
+### Case 2: "Monitor urls using c#"
 
 + Asked 9 years, 3 months ago
 + Modified 9 years, 1 month ago
