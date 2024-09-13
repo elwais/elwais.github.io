@@ -22,6 +22,13 @@ practice, this had a few disadvantages, with a big one being an increased time
 requirement for me to complete assignments. On the upside though, I found that
 most instructors were very receptive to my questions. I assumed that was because
 those instructors were just patient, but I recently realized that my attitude
-towards asking questions may have positively affected their receptiveness. My
-thoughts on that influence from assuming a very "strict" stance on asking
-questions is something that I'd like to share briefly.
+towards asking questions may have positively affected their receptiveness. And
+as it turns out, this experience isn't something that's unique to me.
+
+In 2001, Eric Raymond wrote an article titled "How To Ask Questions The Smart
+Way," in which he roughly discusses ways programmers can seek help from other
+programmers. That article has gone through several revisions, with the most
+recent one being from 2014 that is available for reading
+[here](http://www.catb.org/esr/faqs/smart-questions.html).
+
+
