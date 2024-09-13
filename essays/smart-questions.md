@@ -50,13 +50,17 @@ example will be of a "smart" question with favorable responses, and another of a
 not-so-"smart" question with not-so-favorable responses. Though this certainly
 won't act as definite proof that "smart" questions have a higher probability of
 garnering favorable responses, it should serve as a modern anecdote to those
-described by Raymond.
+described by Raymond. I selected 2 interesting questions from
+[here](https://stackoverflow.com/questions/tagged/website-monitoring), listed
+some of their metrics, and the actual question itself. Let's see how they fare!
 
 ### Case 1: "How do you monitor the availability of multiple websites"
 
 + Asked 15 years, 11 months ago
 + Modified 10 years, 8 months ago
 + Viewed 2k times
++ 7 votes
++ <https://stackoverflow.com/questions/tagged/website-monitoring>
 
 ---
 
@@ -71,4 +75,32 @@ tools (statistics, response times, pretty graphs) - what do you use?
 
 For this question, we see that the author has provided more detail and context
 as to the problem that they're trying to solve. They've also explained their
-current process
+current process, which demonstrates that they've already put in their effort.
+Their last sentence also implies that the author is not intending for having
+their problem solved completely by the people that answer, but is simply looking
+for some direction to continue putting in the work. This has garnered 5
+responses, two of which have upvotes around 8 times that of the others (implying
+relatively high-quality answers).
+
+### Case 2: "How do you monitor the availability of multiple websites"
+
++ Asked 9 years, 3 months ago
++ Modified 9 years, 1 month ago
++ Viewed 4k times
++ 0 votes
++ <https://stackoverflow.com/questions/30574488/monitor-urls-using-c-sharp>
+
+---
+
+I am developing asp.net website for url monitoring. I looked around for open
+source tools and none of them provide restful APIs so that they can be called
+from my application. Are there any open source packages that I can directly use?
+
+Thanks.
+
+---
+
+Now, this question isn't one that's terrible. The author states that they've
+looked around, which is a good start. However, it looks like the author was
+asking for a specific way (open source packages) to do a specific thing
+(`asp.net` website for URL monitoring).
