@@ -26,4 +26,23 @@ seeing on that list:
 
 ---
 
+## Why Join and Leave?
 
+With no context or explanation, I found those points to be very confusing! After
+all, why would one go out of their way to join a committee that can dictate the
+fate of something used by many programmers around the world, only to rush out
+after a certain time limit had elapsed? My instructor then explained that this
+brief stint in the committee had a very specific purpose: to learn about the
+decisions behind design choices *without getting too attached*.
+
+I'd like to tease that reasoning apart a bit more, and start why one would even
+want to understand design choices in the first place.
+
+### Why Standards Matter
+
+Personally, I think standards matter because of 2 things: uniformity and
+quality. The former is something that most of us tend to like without realizing.
+Whether it's the lack of inconsistency that makes us feel that we have control
+in our lives or the uniformity of what we see (think of a rustic home that is
+rustic everywhere, or a high-end restaurant that has nary a speck of dust or
+dirt anywhere).
