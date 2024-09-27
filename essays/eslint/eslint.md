@@ -60,7 +60,7 @@ able to notify deviation from those standards and --- in some cases --- modify
 the code to automatically conform to the standards (not unlike autocorrect on a
 syntactic and stylistic level).
 
-## Why Standards Must *Not* Become Dogma
+## Why Standards Must *Not* Matter to the Point of Becoming Dogma
 
 Standards are great at creating uniformity that converges on quality code... but
 what exactly is "quality?" Why should one set of guidelines be adhered to over
@@ -85,6 +85,19 @@ format code.)
 Frankly, the approach software engineers will take in working with those tools
 will come down to whatever makes them work optimally. For me personally though,
 I don't find it particularly encouraging or helpful when I'm being blasted with
-numerous linting errors due to the fact that my non-void function lacks a return
+numerous ESLint errors due to the fact that my non-void function lacks a return
 statement --- especially since that return statement is something that I was
 planning to write eventually.
+
+I find that standards are useful in the end product or even in each milestone of
+the project, but I don't think it's worthwhile to try to make sure the code
+adheres to the standards with each line written. Doing so would be analogous to
+following the "proper" path laid out for you, even if the shortcut would shave
+off hours of time. (This is all the more true in the case where the tooling will
+automatically fix your code for you.)
+
+I like that we have tools at our disposal to aid us with following standards,
+but I hope that software engineers take care to make the tool work for them
+(using the tool to address and fix errors when needed) instead of the
+other way around (spending less time making progress with code and more time
+with removing each lint error as soon as it pops up).
