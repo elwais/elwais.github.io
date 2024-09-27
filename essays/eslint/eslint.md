@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: "Join a Standards Committee... and Leave as Fast as Possible"
+title: "Join a Committee... and Leave as Fast as Possible"
 date: 2024-09-26
 published: true
 labels:
@@ -21,7 +21,9 @@ seeing on that list:
 
 ---
 
-<center>
-  <it>
-  </it>
-</center>
++ *Join a language/standards committee.*
++ *Leave that committee after a few months.*
+
+---
+
+
